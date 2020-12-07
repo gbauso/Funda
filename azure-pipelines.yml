@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 trigger:
-- main
+- master
 
 pool:
   vmImage: 'ubuntu-latest'
@@ -16,13 +16,16 @@ steps:
     version: '5.0.x'
 
 - task: DotNetCoreCLI@2
+  displayName: Restore Packages
   inputs:
     command: 'restore'
 
 - task: DotNetCoreCLI@2
+  displayName: Test
   inputs:
     command: 'test'
 
 - task: DotNetCoreCLI@2
+  displayName: Build
   inputs:
     command: 'build'
