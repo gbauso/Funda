@@ -25,8 +25,8 @@ This assignment requires Redis (Could be run in Docker) and .NET 5 to run
 In case of needing to change some configuration, there is a file called appsettings.json on Funda.GUI project.
 
 ```sh
-$ dotnet test
 $ dotnet restore
+$ dotnet build
 $ docker run -p 6379:6379 -d redis
 $ cd src/Funda.CLI
 $ dotnet run [-g] [-f]
