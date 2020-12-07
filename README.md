@@ -67,8 +67,8 @@ $ dotnet run [-g] [-f]
 
 ### Things to improve
 
-[ ] Write MORE Tests
-[ ] Decouple caching from Repository
-[ ] Make the Repository more resilient
-[ ] Batch API Calls (Probably with parallelism)
-[ ] Write a mechanism to limit HTTP calls per minute and use Retry implementation wisely.
+- Write MORE Tests
+- Decouple caching from Repository
+- Make the Repository more resilient
+- Batch API Calls (Probably with parallelism)
+- Write a mechanism to limit HTTP calls per minute and use Retry implementation wisely.
