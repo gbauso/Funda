@@ -10,11 +10,19 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: dotnet restore
-  displayName: 'Restore Packages'
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '5.0.x'
 
-- script: dotnet test
-  displayName: 'Testing'
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'restore'
 
-- script: dotnet build
-  displayName: 'Build Solution'
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'test'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
