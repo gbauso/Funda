@@ -28,7 +28,7 @@ In case of needing to change some configuration, there is a file called appsetti
 $ dotnet test
 $ dotnet restore
 $ docker run -p 6379:6379 -d redis
-$ cd src/Funda.GUI
+$ cd src/Funda.CLI
 $ dotnet run [-g] [-f]
 ```
 

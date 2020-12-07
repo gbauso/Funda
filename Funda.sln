@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Funda.GUI", "src\Funda.GUI\Funda.GUI.csproj", "{73579F7C-E69C-4EEB-A2E2-4220FAC77061}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Funda.CLI", "src\Funda.CLI\Funda.CLI.csproj", "{73579F7C-E69C-4EEB-A2E2-4220FAC77061}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Funda.Core", "src\Funda.Core\Funda.Core.csproj", "{E8084E8D-BBC9-4EFC-838D-98D2386DDCAA}"
 EndProject
