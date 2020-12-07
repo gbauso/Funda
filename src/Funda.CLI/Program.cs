@@ -1,10 +1,10 @@
 ﻿using CommandLine;
 using Funda.Application;
+using Funda.CLI.Extensions;
 using Funda.Core.Model;
 using Funda.Core.Ports;
 using Funda.Infra.Http;
 using Funda.Infra.Repository;
-using FundaAssignment.Extensions;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -17,7 +17,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 
-namespace Funda
+namespace Funda.CLI
 {
     public class Program
     {

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace FundaAssignment.Extensions
+namespace Funda.CLI.Extensions
 {
     public static class ConsoleHelper
     {
