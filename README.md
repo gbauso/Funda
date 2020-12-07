@@ -1,7 +1,9 @@
 # Funda Assignment
 
+[![Build Status](https://dev.azure.com/guilhermebauso/FundaAssignment/_apis/build/status/gbauso.Funda?branchName=master)](https://dev.azure.com/guilhermebauso/FundaAssignment/_build/latest?definitionId=28&branchName=master)
+
 ### Goal
-(makelaar = real estate agent)
+(makelaar = real estate agent)  
 (tuin = garden)
 
 Determine which makelaar's  in Amsterdam have the most object listed for sale. Make a table of the top 10. 
@@ -71,4 +73,4 @@ $ dotnet run [-g] [-f]
 - Decouple caching from Repository
 - Make the Repository more resilient
 - Batch API Calls (Probably with parallelism)
-- Write a mechanism to limit HTTP calls per minute and use Retry implementation wisely.
+- Write a mechanism to limit HTTP calls per minute in order to use retry implementation wisely.
