@@ -14,7 +14,7 @@ namespace Funda.CLI.Extensions
             WriteWithBorders(true, "Position", "Seller", "Ads");
             foreach (var (value, index) in data.Select((v, i) => (v, i)))
             {
-                WriteWithBorders(false, index, value.SellerName, value.AdsCount);
+                WriteWithBorders(false, (index + 1), value.SellerName, value.AdsCount);
             }
         }
 
